@@ -6,7 +6,7 @@
 
  [Python的命名空间和变量作用域](/Python/Python的命名空间和变量作用域.md)
 
-[Python中的 `string`🆚 `bytes`](/Python/Python中的bytes 和 string)
+[Python中的 `string` 和 `bytes`](/Python/Python中的bytes 和 string)
 
 ---
 
