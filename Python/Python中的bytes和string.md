@@ -24,8 +24,8 @@
 - `bytes` 类型的 `unicode`（中文）输出
 
   ```python
-  s = '\\u4eca\\u5929\\u5929\\u6c14\\u4e0d\\u9519'    # 中文是：今天天气真不错
-  new_s = s.encode().decode('unicode_escape')         # 输出为：今天天气真不错
+  s = '\\u4eca\\u5929\\u5929\\u6c14\\u4e0d\\u9519'    # 中文是：今天天气不错
+  new_s = s.encode().decode('unicode_escape')         # 输出为：今天天气不错
   ```
 
 #### 两者在操作上的不相容
