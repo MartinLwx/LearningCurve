@@ -4,11 +4,13 @@
 
 ### Python
 
-[命名空间和变量作用域](/Python/Python的命名空间和变量作用域.md)
+[命名空间和变量作用域](/Python/Python 的命名空间和变量作用域.md)
 
-[string 🆚 bytes](/Python/Python中的bytes和string.md)
+[string 🆚 bytes](/Python/Python 中的 bytes 和 string.md)
 
-[字符串格式化输出方法对比](/Python/Python中的字符串格式化输出方法对比.md)
+[字符串格式化输出方法对比](/Python/Python 中的字符串格式化输出方法对比.md)
+
+[用好 `itertools`](/Python/Python 中的 itertools 怎么用.md)
 
 ---
 
