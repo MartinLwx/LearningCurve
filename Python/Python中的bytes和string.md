@@ -1,9 +1,9 @@
-#### `bytes` 🆚 `string`
+## `bytes` 🆚 `string`
 
 - 在 Python 中，`string` 的编码方式是 `utf-8`
   - `bytes` 的开头用 `b''` 表示，内部实现是 8 bit 的值，必须用 `.decode()` 的方法得到 `string`
 
-#### 常见功能举例🌰
+## 常见功能举例🌰
 
 - `string` 转 `bytes`
 
@@ -28,7 +28,7 @@
   new_s = s.encode().decode('unicode_escape')         # 输出为：今天天气不错
   ```
 
-#### 两者在操作上的不相容
+## 两者在操作上的不相容
 
 - 两者操作上的不相容
   - 比如你无法使用 `print(b'one' + 'two')`
@@ -37,7 +37,7 @@
   - 虽然两者一般不会同时使用，但是 `print('hello %s' % b'world')` 是可以的，但是输出其实是 `hello b'world'`
 - 📒总结来说就是我们一般要么都用 `str`，要么都用 `bytes`
 
-#### ⚠️其他注意事项
+## ⚠️其他注意事项
 
 - 涉及文件的操作默认都是要用的 `str`
 
@@ -50,7 +50,7 @@
       f.write(b'hello world')  # 现在就不会报错了
   ```
 
-#### 💊DBES原则
+## 💊DBES原则
 
 - 这是我在一本书上看到的简记的原则
 - DBES 原则
