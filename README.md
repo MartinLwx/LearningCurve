@@ -1,4 +1,4 @@
-# LearningCurve
+#LearningCurve
 
 :thinking:记录学习笔记
 
@@ -32,3 +32,8 @@
 
 [`git-lfs` 简介](/Git/git-lfs.md)
 
+---
+
+### tools
+
+[用 `hammerspoon` 管理窗口](/tools/how-to-manage-windows-using-hammerspoon.md)
